@@ -13,7 +13,7 @@ const {oauth2} =require('googleapis/build/src/apis/oauth2')
 const googleConfig={
     clientId:process.env.CLIENT_ID,
     clientSecret:process.env.CLIENT_SECRET,
-    redirectUrl:'http://localhost:5896/redirect'
+    redirectUrl:'https://authnodejs.herokuapp.com/redirect'
 }
 function createConnection() {
     return new google.auth.OAuth2(
