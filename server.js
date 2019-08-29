@@ -4,6 +4,7 @@ const env=require('dotenv');
 env.config();
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
+const PORT=process.env.PORT||5896
 
 
 const {google} =require('googleapis')
@@ -80,7 +81,7 @@ const defaultScope = [
   }
 
 
-app.listen(port=5896,()=>{
-    console.log('server started at port '+port)
+app.listen(PORT,()=>{
+    console.log('server started at port '+PORT)
 })
 
