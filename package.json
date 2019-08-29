@@ -1,0 +1,16 @@
+{
+  "name": "googleauthdemo",
+  "version": "1.0.0",
+  "description": "demo app for testing google auth using node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^41.0.1"
+  }
+}
